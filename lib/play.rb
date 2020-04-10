@@ -40,6 +40,5 @@ def play(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   until board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
   turn(board)
-  counter += 1
 end
 end
