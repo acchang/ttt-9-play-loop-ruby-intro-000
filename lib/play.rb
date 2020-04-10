@@ -37,8 +37,8 @@ end
 
 # Define your play method below
 def play(board)
-  counter = 0
-  until counter = 9
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  until board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
   turn(board)
   counter += 1
 end
