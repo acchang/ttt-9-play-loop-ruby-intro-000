@@ -37,8 +37,9 @@ end
 
 # Define your play method below
 def play(board)
+  turn(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   until board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
-  turn(board)
+
 end
 end
